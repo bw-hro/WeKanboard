@@ -193,7 +193,7 @@ div.board-add-icon{
 }
 
 .accordion-section{
-    background: white;
+    background: var(--task-card-bg);
     padding: 0;
 }
 
@@ -210,4 +210,36 @@ div.board-add-icon{
     padding: .5em .7em;
     border: none;
     border-bottom: 1px solid var(--middle-gray);
+}
+
+/* list */
+
+.table-list{
+    background:  var(--task-card-bg);
+    margin: 0;
+}
+
+.table-list-header{
+    background: var(--lighter-gray);
+    border: none;
+    padding: 1.3em .7em 1em;
+    line-height: unset;
+    border-radius: unset;
+}
+
+.table-list-row{
+    border: none;
+    border-bottom: 1px solid var(--middle-gray);
+    padding: .5em .4em;
+    border-left-width: 8px !important;
+    border-radius: unset !important;
+}
+
+.table-list-row:hover{
+    border-right: none;
+    border-bottom-color: var(--middle-gray);
+}
+
+.table-list-details{
+    float: left;
 }
