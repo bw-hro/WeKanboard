@@ -20,6 +20,7 @@
 
 body{
     background: var(--light-gray);
+    padding: 0;
 }
 
 /* header */
@@ -50,11 +51,6 @@ header h1 {
 
 .select-dropdown-input-container, .select-dropdown-input{
     background: var(--lighter-gray);
-}
-
-.board-selector-container, .js-select-dropdown-autocomplete-rendered{
-    color: green !important;
-    color: aqua;
 }
 
 ::-webkit-input-placeholder { /* Edge */
@@ -114,7 +110,7 @@ header h1 {
 
 table th, table td{
     border: none;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid var(--middle-gray);
 }
 
 table th{
@@ -165,7 +161,7 @@ div.board-add-icon{
 .draggable-placeholder{
     border:none;
     border-radius: 10px;
-    background:#ccc;
+    background:var(--middle-gray);
     height:70px;
     margin:10px;
 }
@@ -181,3 +177,37 @@ div.board-add-icon{
     padding: .5em;
 }
 
+/* overview */
+
+.project-overview-columns{
+    background: var(--lighter-gray);
+    margin: 0;
+}
+.project-overview-column{
+    border-left: 1px solid var(--middle-gray);
+    margin: 0;
+    padding: .3em 2em;
+}
+.project-overview-column:last-child{
+    border-right: 1px solid var(--middle-gray);
+}
+
+.accordion-section{
+    background: white;
+    padding: 0;
+}
+
+.accordion-title{
+    padding: 1em 1em .5em;
+    margin: 0;
+    outline: none;
+}
+.accordion-content{
+    padding: 1em 1em .5em;
+    margin: 0;
+}
+.accordion-content td, .accordion-content th{
+    padding: .5em .7em;
+    border: none;
+    border-bottom: 1px solid var(--middle-gray);
+}
