@@ -314,3 +314,14 @@ div.board-add-icon{
     padding: .5em .7em;
 }
 
+/* task details */
+
+#task-summary h2{
+    padding: 1.5em 0 1em;
+    margin: 0;
+}
+
+.sidebar h2{
+    padding: 1em 0 0;
+}
+
