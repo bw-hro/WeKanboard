@@ -155,16 +155,20 @@ table td{
     text-align: center;
 }
 
-td.board-column-task-collapsed, .board-container-compact{
+td.board-column-task-collapsed, .board-container-compact, #board-container{
     background: var(--light-gray);
 }
 
-.board-container-compact{
+.board-container-compact, #board-container{
     margin-bottom: -2em;
 }
 td .board-column-collapsed{
     background: var(--light-gray);
-    margin-left: 1em;
+}
+
+th.board-column-header-collapsed
+{
+    padding: 0;
 }
 
 div.board-add-icon{
