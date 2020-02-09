@@ -11,6 +11,9 @@
     --dark-font:#4d4d4d;
     --darker-font: #222;
 
+    --light-orange:#b96229;
+    --middle-orange:#944e21;
+
     --task-card-bg: white;
 
     --color-primary: var(--dark-font);
@@ -68,6 +71,15 @@ header h1 {
 .select-dropdown-chevron, .select-dropdown-input{
     color: var(--dark-blue) !important;
 }
+
+a i.web-notification-icon {
+    color: var(--light-orange);
+}
+
+a i.web-notification-icon:hover {
+    color: var(--middle-orange);
+}
+
 /* project header */
 
 .project-header{
