@@ -73,6 +73,7 @@ header h1 {
 .project-header{
     background: var(--blue);
     margin: 0;
+    margin-top: -2em;
     padding: 1em .5em;
     --color-primary: var(--light-font);
 }
@@ -86,6 +87,15 @@ header h1 {
     border:none;
     background: var(--lighter-gray);
     color: var(--dark-blue);
+    outline: none;
+}
+
+.project-header .filter-box .input-addon-field{
+    padding: 4px .75em !important;
+}
+
+.project-header .search .input-addon-item{
+    padding: 4px .75em !important;
 }
 
 .views a, .views li.active a{
@@ -133,8 +143,12 @@ table td{
     text-align: center;
 }
 
-td.board-column-task-collapsed{
+td.board-column-task-collapsed, .board-container-compact{
     background: var(--light-gray);
+}
+
+.board-container-compact{
+    margin-bottom: -2em;
 }
 td .board-column-collapsed{
     background: var(--light-gray);
@@ -235,11 +249,52 @@ div.board-add-icon{
     border-radius: unset !important;
 }
 
+.table-list-row.table-border-left
+{
+    border-left: none;
+}
+
 .table-list-row:hover{
     border-right: none;
     border-bottom-color: var(--middle-gray);
 }
 
-.table-list-details{
+.table-list-details:not(:last-child){
     float: left;
 }
+
+/* sidebar container */
+
+.sidebar-conxxtainer, .page{
+    background: var(--task-card-bg);
+    padding: 2em 0;
+}
+
+#main > .page-header, .page > .page-header{
+    margin: -2em 0 2em;
+    background: var(--lighter-gray);
+    padding: .5em .7em .7em;
+}
+
+.page-header:not(:first-of-type)
+{
+    margin: 2em 0 1em;
+}
+
+.page-header h2
+{
+    border: none;
+}
+
+#main input, .page input{
+    box-shadow: none !important;
+}
+
+.search{
+    margin: 1em 0 3em;
+}
+
+.filterbox .search input, .search .input-addon-item{
+    padding: .5em .7em;
+}
+
