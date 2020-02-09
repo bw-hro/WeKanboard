@@ -11,13 +11,19 @@
     --dark-font:#4d4d4d;
     --darker-font: #222;
 
+    --lighter-orange:#ffbb8e;
     --light-orange:#b96229;
     --middle-orange:#944e21;
 
     --task-card-bg: white;
 
     --color-primary: var(--dark-font);
-    --board-task-limit-color: rgba(222,0,0,0.1);
+    --link-color-primary: var(--dark-blue);
+    --button-primary-background-color:var(--blue);
+    --button-primary-background-color-focus:var(--dark-blue);
+    --button-danger-background-color:var(--light-orange);
+    --button-danger-background-color-focus:var(--middle-orange);
+    --board-task-limit-color: var(--lighter-orange);
 }
 
 
@@ -50,6 +56,10 @@ header h1 {
 .logo a{
     text-indent: -2em;
     display: inline-block;
+}
+
+.title-container .fa-info-circle{
+    color: unset;
 }
 
 .select-dropdown-input-container, .select-dropdown-input{
@@ -236,7 +246,7 @@ div.board-add-icon{
     padding: 1em 1em .5em;
     margin: 0;
 }
-.accordion-content td, .accordion-content th{
+.accordion-content td, .accordion-content th, .sidebar-content td, .sidebar-content th, .table-small td, .table-small th{
     padding: .5em .7em;
     border: none;
     border-bottom: 1px solid var(--middle-gray);
@@ -281,7 +291,7 @@ div.board-add-icon{
 
 /* sidebar container */
 
-.sidebar-conxxtainer, .page{
+.page{
     background: var(--task-card-bg);
     padding: 2em 0;
 }
@@ -325,3 +335,16 @@ div.board-add-icon{
     padding: 1em 0 0;
 }
 
+/* some extras */
+.dropdown-submenu-open li:not(.no-hover):hover {
+    background: var(--blue);
+}
+
+#tooltip-container, #modal-content{
+    padding: 1em;
+}
+
+#modal-close-button {
+    float: right;
+    padding: .7em .5em;
+}
