@@ -47,17 +47,6 @@ header h1 {
     font-weight: 700;
 }
 
-.logo a::after {
-    content: " \f015  ";
-    font: normal normal normal 25px FontAwesome;
-    color: var(--light-font);
-}
-
-.logo a{
-    text-indent: -2em;
-    display: inline-block;
-}
-
 .title-container .fa-info-circle{
     color: unset;
 }
@@ -215,6 +204,12 @@ div.board-add-icon{
     border-radius: 2px;
     margin: 8px 13px;
     padding: .5em;
+}
+
+.task-board-status-closed, .task-board-recent{
+    border-top: none !important;
+    border-bottom: none!important;
+    border-right: none!important;
 }
 
 /* overview */

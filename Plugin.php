@@ -15,7 +15,7 @@ class Plugin extends Base
 
     public function getPluginDescription()
     {
-        return t('Yet another theme for Kanboard. Strongly inspired by the style of Wekan.');
+        return t('Yet another theme for Kanboard. Strongly inspired by the style of Wekan. Supports the Customizer plugin.');
     }
 
     public function getPluginAuthor()
