@@ -51,6 +51,11 @@ header h1 {
     color: unset;
 }
 
+header .title-container {
+    display: flex;
+    align-items: center;
+}
+
 .select-dropdown-input-container, .select-dropdown-input{
     background: var(--lighter-gray);
 }
