@@ -14,7 +14,7 @@ Yet another theme for [Kanboard](https://github.com/kanboard/kanboard). Strongly
 
 ## Requirements
 
-Kanboard >= v1.2.13
+Kanboard >= v1.2.11
 
 ## Installation
 
