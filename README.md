@@ -18,4 +18,11 @@ Kanboard >= v1.2.13
 
 ## Installation
 
-Download latest release and copy WeKanboard folder into Kanboards plugins folder.
+You have the choice between 3 methods:
+
+1. Install the plugin from the Kanboard plugin manager in one click
+2. Download the zip file and decompress everything under the directory `plugins/WeKanboard`
+3. Clone this repository into the folder `plugins/WeKanboard`
+
+Note: Plugin folder is case-sensitive.  
+**Important: remove all unused themes**

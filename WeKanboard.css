@@ -90,7 +90,7 @@ a i.web-notification-icon:hover {
     background: var(--blue);
     margin: 0;
     margin-top: -2em;
-    padding: 1em .5em;
+    padding: .7em .5em;
     --color-primary: var(--light-font);
 }
 
