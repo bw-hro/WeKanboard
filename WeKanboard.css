@@ -200,7 +200,7 @@ div.board-add-icon{
     margin:10px;
 }
 
-.task-board{
+.task-board, .task-summary-container{
     background: var(--task-card-bg) !important;
     border:none;
     border-left: 1px solid;
@@ -326,9 +326,21 @@ div.board-add-icon{
 
 /* task details */
 
+.task-summary-container{
+    margin:1.5em;
+    padding: 1em;
+}
+
+#task-summary{
+    background:var(--light-gray) !important;
+    border:none;
+    padding:0 0 .1px 0;	
+}
+
 #task-summary h2{
     padding: 1.5em 0 1em;
     margin: 0;
+    background:white;
 }
 
 .sidebar h2{
