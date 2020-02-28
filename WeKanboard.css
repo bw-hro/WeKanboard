@@ -200,7 +200,7 @@ div.board-add-icon{
     margin:10px;
 }
 
-.task-board, .task-summary-container{
+.task-board, .task-summary-container, #external-task-view{
     background: var(--task-card-bg) !important;
     border:none;
     border-left: 1px solid;
@@ -215,6 +215,12 @@ div.board-add-icon{
     border-top: none !important;
     border-bottom: none!important;
     border-right: none!important;
+}
+
+#external-task-view{
+    margin: 1.5em;
+    border: unset;    
+    padding: .1px 1em;
 }
 
 /* overview */
