@@ -303,9 +303,8 @@ div.board-add-icon{
 }
 
 #main > .page-header, .page > .page-header{
-    margin: -2em 0 2em;
-    background: var(--lighter-gray);
-    padding: .5em .7em .7em;
+    margin: 0;
+    padding: .5em .7em .7em 0;
 }
 
 .page-header:not(:first-of-type)
@@ -315,6 +314,7 @@ div.board-add-icon{
 
 .page-header h2
 {
+    margin: 1rem 0;
     border: none;
 }
 
